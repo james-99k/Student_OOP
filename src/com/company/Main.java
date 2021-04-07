@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Student name, ID, curriculum");
+        Student students = new Student("James", 1234, "IT");
+        System.out.println(students.getStudName() +" " +students.getStudId() + " " +students.getStudCurr());
     }
 }
