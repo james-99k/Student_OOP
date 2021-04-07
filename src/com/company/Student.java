@@ -29,9 +29,9 @@ public class Student {
         this.studCurr = studCurr;
     }
 
-    public Student(String studName, int studId, String studCurr) {
+    /*public Student(String studName, int studId, String studCurr) {
         this.studName = studName;
         this.studId = studId;
         this.studCurr = studCurr;
-    }
+    }*/
 }
